@@ -12,25 +12,36 @@
 
 </div>
 
-## What is C4 Model?
-
-The [C4 Model](https://c4model.com/) is a lightweight and practical approach for visualizing the architecture of a software system.  
-It was developed by [Simon Brown](http://simonbrown.je/), a seasoned software architect and consultant.  
-C4 provides a set of diagrams that enable software architects and developers to communicate and document the structure, key elements, and interactions of the system.
-
-If you never heard about C4 - check the [C4 Model website](https://c4model.com/), you get the idea very quickly.
-
-
 ## What is LikeC4? Why "like"?
 
-C4 is great. But sometimes we want to go beyond four levels, we want custom ones with our semantics.  
-This is where LikeC4 comes in. It allows to customize and tailor architecture model to our needs.  
-And customization is essential for Architecture-as-a-Code approach.
+LikeC4 is a modeling language for describing software architecture, and tools to generate diagrams from the model.  
 
-....
-
-
+LikeC4 is inspired by [C4 Model](https://c4model.com/), but provides some flexibility.
+You can define your own notation, element types, and any number of nested levels in your architecture model.
+This allows you to create a perfectly tailored system design.
 
 ## What does LikeC4 look like?
 
-...
+LikeC4 source ([full source on github](https://github.com/likec4/likec4/blob/develop/docs/likec4/index-page/index-page.c4)):
+
+![index-page-code-2](https://github.com/likec4/.github/assets/824903/7f92dde2-aba3-471f-ae75-4ba59012c25e)
+
+CLI to generate react components (or export to other format):
+
+```bash
+likec4 codegen react -o likec4-generated.tsx
+```
+
+Website:
+
+```jsx
+import { LikeC4View } from "$/likec4-generated"
+
+// ...
+
+<LikeC4View viewId="index"/>
+```
+
+And this is rendered: 
+
+![index-view](https://github.com/likec4/.github/assets/824903/7408651f-e7ee-4d12-881e-49a4284337cb)
