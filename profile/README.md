@@ -46,4 +46,9 @@ import { LikeC4View } from "$/likec4-generated"
 
 And this is rendered: 
 
-![index-view](https://github.com/likec4/.github/assets/824903/7408651f-e7ee-4d12-881e-49a4284337cb)
+<div align="center">
+  <img src="https://github.com/likec4/.github/assets/824903/954093f2-c164-4aa9-9ba6-3627206eeb4e" width="1048px">
+</div>
+
+
+
