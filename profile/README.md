@@ -16,25 +16,27 @@
 
 LikeC4 is a modeling language for describing software architecture, and tools to generate diagrams from the model.  
 
-LikeC4 is inspired by [C4 Model](https://c4model.com/), but provides some flexibility.
-You can define your own notation, element types, and any number of nested levels in your architecture model.
-This allows you to create a perfectly tailored system design.
+LikeC4 is inspired by [C4 Model](https://c4model.com/) and [Structurizr DSL](https://github.com/structurizr/dsl), but provides some flexibility.
+You customize or define your own notation, element types, and any number of nested levels in architecture model.  
+Perfectly tailored to your needs.
 
 ## What does LikeC4 look like?
 
 LikeC4 source ([full source on github](https://github.com/likec4/likec4/blob/develop/docs/likec4/index-page/index-page.c4)):
 
-![index-page-code-2](https://github.com/likec4/.github/assets/824903/7f92dde2-aba3-471f-ae75-4ba59012c25e)
+<div align="center">
+  <img src="https://github.com/likec4/.github/assets/824903/feb8a707-4556-4628-a083-29e2559f75d7" width="705px">
+</div>
 
 CLI to generate react components (or export to other format):
 
-```bash
+```sh
 likec4 codegen react -o likec4-generated.tsx
 ```
 
 Website:
 
-```jsx
+```tsx
 import { LikeC4View } from "$/likec4-generated"
 
 // ...
