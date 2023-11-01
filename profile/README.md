@@ -6,15 +6,15 @@
     Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code
   </h4>
   
-  [docs](https://likec4.dev/docs/) | [playground](https://likec4.dev/playground/) | [example](https://likec4.dev/examples/bigbank/likec4/)
+  [docs](https://likec4.dev/docs/) | [playground](https://likec4.dev/playground/) | [demo](https://template.likec4.dev/view/cloud)
 
-  ![vscode extension](https://github.com/likec4/likec4/assets/824903/d6994540-55d1-4167-b66b-45056754cc29)
+![vscode extension](https://github.com/likec4/likec4/assets/824903/d6994540-55d1-4167-b66b-45056754cc29)
 
 </div>
 
 ## What is LikeC4? Why "like"?
 
-LikeC4 is a modeling language for describing software architecture, and tools to generate diagrams from the model.  
+LikeC4 is a modeling language for describing software architecture and tools to generate diagrams from the model.
 
 LikeC4 is inspired by [C4 Model](https://c4model.com/) and [Structurizr DSL](https://github.com/structurizr/dsl), but provides some flexibility.
 You customize or define your own notation, element types, and any number of nested levels in architecture model.  
@@ -22,33 +22,20 @@ Perfectly tailored to your needs.
 
 ## What does LikeC4 look like?
 
-LikeC4 source ([full source on github](https://github.com/likec4/likec4/blob/develop/docs/likec4/index-page/index-page.c4)):
+LikeC4 source:
 
 <div align="center">
-  <img src="https://github.com/likec4/.github/assets/824903/feb8a707-4556-4628-a083-29e2559f75d7" width="705px">
+  <img src="https://github.com/likec4/likec4/assets/824903/6a5e9fe9-f930-4e43-be5b-fdf30475bb61" width="535px">
 </div>
 
-CLI to generate react components (or export to other format):
+Run CLI to preview:
 
 ```sh
-likec4 codegen react -o likec4-generated.tsx
+npx likec4@latest serve
 ```
 
-Website:
-
-```tsx
-import { LikeC4View } from "$/likec4-generated"
-
-// ...
-
-<LikeC4View viewId="index"/>
-```
-
-And this is rendered: 
+And result:
 
 <div align="center">
-  <img src="https://github.com/likec4/.github/assets/824903/954093f2-c164-4aa9-9ba6-3627206eeb4e" width="1048px">
+  <img src="https://github.com/likec4/likec4/assets/824903/27eabe54-7d97-47a8-a7e4-1bb44a8e03e5" width="984px">
 </div>
-
-
-
