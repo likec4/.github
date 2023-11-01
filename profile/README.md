@@ -25,7 +25,7 @@ Perfectly tailored to your needs.
 LikeC4 source:
 
 <div align="center">
-  <img src="https://github.com/likec4/.github/assets/824903/64d700ac-ec85-497f-b80e-7eb0b0d7826c" width="574px">
+  <img src="https://github.com/likec4/.github/assets/824903/c0f22106-dba6-469e-ab47-85e7b8565513" width="675px">
 </div>
 
 Run CLI to preview:
