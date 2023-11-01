@@ -3,7 +3,7 @@
     Architecture as a code
   </h1>
   <h4>
-    Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code
+    Visualize, collaborate, and evolve the software architecture with actual and live diagrams from your code
   </h4>
   
   [docs](https://likec4.dev/docs/) | [playground](https://likec4.dev/playground/) | [demo](https://template.likec4.dev/view/cloud)
@@ -31,7 +31,7 @@ LikeC4 source:
 Run CLI to preview:
 
 ```sh
-npx likec4@latest serve
+npx likec4@latest start
 ```
 
 And result:
