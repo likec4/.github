@@ -25,13 +25,13 @@ Perfectly tailored to your needs.
 LikeC4 source:
 
 <div align="center">
-  <img src="https://github.com/likec4/likec4/assets/824903/6a5e9fe9-f930-4e43-be5b-fdf30475bb61" width="535px">
+  <img src="https://github.com/likec4/.github/assets/824903/64d700ac-ec85-497f-b80e-7eb0b0d7826c" width="574px">
 </div>
 
 Run CLI to preview:
 
 ```sh
-npx likec4@latest start
+npx likec4 start
 ```
 
 And result:
@@ -39,3 +39,6 @@ And result:
 <div align="center">
   <img src="https://github.com/likec4/likec4/assets/824903/27eabe54-7d97-47a8-a7e4-1bb44a8e03e5" width="984px">
 </div>
+
+Template repository - [likec4/template](https://github.com/likec4/template)  
+Deployed - [https://template.likec4.dev](https://template.likec4.dev/view/cloud)
